@@ -363,7 +363,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &89460967
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +482,43 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 4baadd627f06ce24fad66881564ca08f, type: 3}
   m_PrefabInternal: {fileID: 121702223}
+--- !u!1 &135516300 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 444eed026fd67524aba9ec15a4123179, type: 3}
+  m_PrefabInternal: {fileID: 375885485}
+--- !u!1 &193330140 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: a4695c771090af745a09e2ae3d91d5d1, type: 3}
+  m_PrefabInternal: {fileID: 833609583}
+--- !u!1 &223152371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 223152372}
+  m_Layer: 0
+  m_Name: CamOrigin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &223152372
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 223152371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 849846740}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &234548203
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +552,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &239313821 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 238f801a21fa3c342a3716a8759c7e60, type: 3}
+  m_PrefabInternal: {fileID: 1821804275}
+--- !u!1 &257719009 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: bad581c9c25124e4ebf427e870cc3f9d, type: 3}
+  m_PrefabInternal: {fileID: 1597547333}
 --- !u!1001 &318578370
 Prefab:
   m_ObjectHideFlags: 0
@@ -819,6 +864,10 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 407146217}
+--- !u!1 &425548854 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 4baadd627f06ce24fad66881564ca08f, type: 3}
+  m_PrefabInternal: {fileID: 121702223}
 --- !u!1 &438060953
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,6 +999,10 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &479231397 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 95eac7ab53f412d4bbf4e70c51872d32, type: 3}
+  m_PrefabInternal: {fileID: 1509715881}
 --- !u!1 &518059261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,6 +1144,10 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 607657776}
+--- !u!1 &618829252 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 23d15deae6d23a6438d977eb4fd26a6b, type: 3}
+  m_PrefabInternal: {fileID: 1206400342}
 --- !u!1 &681126196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,7 +1293,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
+--- !u!1 &753701193 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: c00217e049cd5e647a27563e57a1ce4b, type: 3}
+  m_PrefabInternal: {fileID: 318578370}
 --- !u!1001 &771355628
 Prefab:
   m_ObjectHideFlags: 0
@@ -1480,13 +1541,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 849846736}
-  m_LocalRotation: {x: -0.016765906, y: -0.9623155, z: 0.061005004, w: -0.26447353}
-  m_LocalPosition: {x: -1.0320495, y: 1.0648606, z: 1.8976936}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.96, z: 2.306}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 223152372}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &985695680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,7 +1628,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1001 &1206400342
 Prefab:
   m_ObjectHideFlags: 0
@@ -1852,7 +1913,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
+--- !u!1 &1318179395 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 489c906bc47f10a4aba538ad2cd948f6, type: 3}
+  m_PrefabInternal: {fileID: 398606557}
 --- !u!1 &1343107594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2075,6 +2140,10 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1344041093}
+--- !u!1 &1374941325 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 92491ad0aee374846aab042b6563d57a, type: 3}
+  m_PrefabInternal: {fileID: 771355628}
 --- !u!1001 &1509715881
 Prefab:
   m_ObjectHideFlags: 0
@@ -2716,14 +2785,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b234b44a27da66b438b086ade40ece06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  set1: {fileID: 42921573}
-  set2: {fileID: 234548204}
   altCounterTop: 0
   altFaucet: 0
   altSideCab: 0
   altSinkCab: 0
   altUpperCab: 0
-  toggles: []
+  camOrigin: {fileID: 223152372}
+  set1:
+  - {fileID: 1318179395}
+  - {fileID: 1374941325}
+  - {fileID: 425548854}
+  - {fileID: 257719009}
+  - {fileID: 479231397}
+  set2:
+  - {fileID: 753701193}
+  - {fileID: 135516300}
+  - {fileID: 239313821}
+  - {fileID: 618829252}
+  - {fileID: 193330140}
+  toggles:
+  - {fileID: 50277136}
+  - {fileID: 985695682}
+  - {fileID: 743540137}
+  - {fileID: 1287677286}
+  - {fileID: 2060895936}
 --- !u!4 &1900849316
 Transform:
   m_ObjectHideFlags: 0
@@ -3048,4 +3133,4 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
