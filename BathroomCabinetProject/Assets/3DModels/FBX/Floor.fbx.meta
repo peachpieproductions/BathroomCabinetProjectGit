@@ -5,12 +5,17 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Floor
     100002: //RootNode
+    100004: Floor_2
     400000: Floor
     400002: //RootNode
+    400004: Floor_2
     2100000: No Name
     2300000: Floor
+    2300002: Floor_2
     3300000: Floor
+    3300002: Floor_2
     4300000: Floor
+    4300002: Floor_2
   externalObjects: {}
   materials:
     importMaterials: 1
