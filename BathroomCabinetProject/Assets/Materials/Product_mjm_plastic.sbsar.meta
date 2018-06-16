@@ -5,14 +5,20 @@ ScriptedImporter:
     100002: Product_mjm_plastic/Product_mjm_plastic
     400002: Product_mjm_plastic/Product_mjm_plastic/Transform
     2100000: mat.Mjm Plastic
+    2100002: mat.Mjm Plastic_1
     2300002: Product_mjm_plastic/Product_mjm_plastic/MeshRenderer
     2800000: Mjm Plastic_Base Color
     2800002: Mjm Plastic_Normal
     2800004: Mjm Plastic_Metallic
     2800006: Mjm Plastic_Height
+    2800008: Mjm Plastic_1_Base Color
+    2800010: Mjm Plastic_1_Normal
+    2800012: Mjm Plastic_1_Metallic
+    2800014: Mjm Plastic_1_Height
     3300002: Product_mjm_plastic/Product_mjm_plastic/MeshFilter
     11400000: sbsar
     11400002: graph0
+    11400004: graph1
     13500002: Product_mjm_plastic/Product_mjm_plastic/SphereCollider
     100100002: Product_mjm_plastic
   externalObjects: {}
@@ -95,3 +101,83 @@ ScriptedImporter:
       textureFormat: 0
       loadBehavior: 0
     material: {fileID: 2100000, guid: 171cbe814897b2447ad433242486debb, type: 3}
+  - graphLabel: Mjm Plastic_1
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://mjm_plastic\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"2872477872\" type=\"8\" value=\"10,10\" />\n
+      \ <presetinput identifier=\"color\" uid=\"3697404985\" type=\"2\" value=\"0.507431,0.524813,0.59434\"
+      />\n  <presetinput identifier=\"pattern_blur\" uid=\"3696319195\" type=\"0\"
+      value=\"0.582\" />\n  <presetinput identifier=\"slices_amount\" uid=\"3695739309\"
+      type=\"4\" value=\"2\" />\n  <presetinput identifier=\"grain_intensity\" uid=\"3696319375\"
+      type=\"0\" value=\"0\" />\n  <presetinput identifier=\"roughness\" uid=\"3697405097\"
+      type=\"0\" value=\"0.073\" />\n  <presetinput identifier=\"roughness_variation\"
+      uid=\"3696945706\" type=\"0\" value=\"0.08\" />\n  <presetinput identifier=\"luminosity\"
+      uid=\"2926194955\" type=\"0\" value=\"0.625\" />\n  <presetinput identifier=\"contrast\"
+      uid=\"3522164777\" type=\"0\" value=\"-0.476\" />\n  <presetinput identifier=\"normal_intensity\"
+      uid=\"2926300778\" type=\"0\" value=\"1\" />\n  <presetinput identifier=\"height_range\"
+      uid=\"3595289163\" type=\"0\" value=\"0.058\" />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: Base Color,Normal,Metallic,Height
+    texturePackingList:
+    - outputName: Diffuse
+      alphaSource: Diffuse
+    - outputName: Base Color
+      alphaSource: Base Color
+    - outputName: Normal
+      alphaSource: Normal
+    - outputName: Specular
+      alphaSource: Specular
+    - outputName: Glossiness
+      alphaSource: Glossiness
+    - outputName: Roughness
+      alphaSource: Roughness
+    - outputName: Metallic
+      alphaSource: Smoothness
+    - outputName: Height
+      alphaSource: Height
+    colorSpaceList:
+    - outputName: Diffuse
+      bLinear: 0
+    - outputName: Base Color
+      bLinear: 0
+    - outputName: Normal
+      bLinear: 1
+    - outputName: Specular
+      bLinear: 0
+    - outputName: Glossiness
+      bLinear: 1
+    - outputName: Roughness
+      bLinear: 1
+    - outputName: Metallic
+      bLinear: 1
+    - outputName: Height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 1024
+      textureHeight: 1024
+      textureFormat: 2
+      loadBehavior: 0
+    - label: Standalone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    - label: iPhone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      loadBehavior: 0
+    material: {fileID: 2100002, guid: 171cbe814897b2447ad433242486debb, type: 3}
