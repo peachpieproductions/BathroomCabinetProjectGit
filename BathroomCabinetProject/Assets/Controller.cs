@@ -5,16 +5,24 @@ using UnityEngine.UI;
 
 public class Controller : MonoBehaviour {
 
-    public bool altCounterTop;
-    public bool altFaucet;
-    public bool altSideCab;
-    public bool altSinkCab;
-    public bool altUpperCab;
-
     public Transform camOrigin;
-    public List<GameObject> set1;
-    public List<GameObject> set2;
-    public List<Toggle> toggles = new List<Toggle>();
+    public List<Transform> sets; 
+    public List<Dropdown> dropdowns = new List<Dropdown>();
+
+    public void QuitGame() {
+        Application.Quit();
+    }
+
+    public void UpdateScene() {
+        var i = 0;
+        foreach(Dropdown d in dropdowns) {
+            for (var j = 0; j < sets.Count; j++) {
+                if (d.value == j) sets[j].GetChild(i).gameObject.SetActive(true);
+                else sets[j].GetChild(i).gameObject.SetActive(false);
+            }
+            i++;
+        }
+    }
 
     private void Update() {
 
@@ -27,63 +35,10 @@ public class Controller : MonoBehaviour {
             Camera.main.fieldOfView += -Input.GetAxis("Mouse Y");
         }
 
-        //get toggles
-        altCounterTop = toggles[0].isOn;
-        altFaucet = toggles[1].isOn;
-        altSideCab = toggles[2].isOn;
-        altSinkCab = toggles[3].isOn;
-        altUpperCab = toggles[4].isOn;
-
-        //Counter Top
-        if (altCounterTop) {
-            set1[0].gameObject.SetActive(false);
-            set2[0].gameObject.SetActive(true);
-        }
-        else {
-            set1[0].gameObject.SetActive(true);
-            set2[0].gameObject.SetActive(false);
-        }
-
-        //Faucet
-        if (altFaucet) {
-            set1[1].gameObject.SetActive(false);
-            set2[1].gameObject.SetActive(true);
-        }
-        else {
-            set1[1].gameObject.SetActive(true);
-            set2[1].gameObject.SetActive(false);
-        }
-
-        //Side Cab
-        if (altSideCab) {
-            set1[2].gameObject.SetActive(false);
-            set2[2].gameObject.SetActive(true);
-        }
-        else {
-            set1[2].gameObject.SetActive(true);
-            set2[2].gameObject.SetActive(false);
-        }
-
-        //Sink Cab
-        if (altSinkCab) {
-            set1[3].gameObject.SetActive(false);
-            set2[3].gameObject.SetActive(true);
-        }
-        else {
-            set1[3].gameObject.SetActive(true);
-            set2[3].gameObject.SetActive(false);
-        }
-
-        //Upper Cab
-        if (altUpperCab) {
-            set1[4].gameObject.SetActive(false);
-            set2[4].gameObject.SetActive(true);
-        }
-        else {
-            set1[4].gameObject.SetActive(true);
-            set2[4].gameObject.SetActive(false);
-        }
+        
     }
+
+    
 
 
 }
