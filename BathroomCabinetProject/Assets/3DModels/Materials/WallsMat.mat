@@ -29,5 +29,6 @@ Material:
     m_Floats:
     - _Gloss: 0.8
     - _Metallic: 0
+    - _Roughness: 0.513
     m_Colors:
-    - _Color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - _Color: {r: 0.6392157, g: 0.6156863, b: 0.62352943, a: 1}

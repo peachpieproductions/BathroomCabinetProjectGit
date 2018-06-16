@@ -6,13 +6,20 @@ ModelImporter:
     100000: Floor
     100002: Floor_2
     100004: //RootNode
+    100006: Walls
+    100008: Walls_2
     400000: Floor
     400002: Floor_2
     400004: //RootNode
+    400006: Walls
+    400008: Walls_2
     2100000: No Name
     2300000: Floor_2
+    2300002: Walls_2
     3300000: Floor_2
+    3300002: Walls_2
     4300000: Floor_2
+    4300002: Walls_2
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -52,7 +59,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
